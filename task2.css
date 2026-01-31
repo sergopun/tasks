@@ -1,0 +1,16 @@
+.grid{
+    height: 400px;
+    display: flex;
+    border: 2px solid black;
+}
+/* создать сайдбар,дать ему размер */
+.sideb{
+    padding: 10px;
+    width: 200px;
+    border: 2px solid black;
+}
+/* контент переместить вправо,дать ему размер */
+.content{
+    flex-grow:1;
+    border: 2px solid blue;
+}

@@ -1,0 +1,22 @@
+.ctranica{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border: 2px solid black;
+}
+
+/* создать место для хедера */
+header{
+    height: 100px;
+    border: 2px solid black;
+}
+/* создать место для фоотера */
+footer{
+    height: 80px;
+    border: 2px solid black;
+}
+/* создать место для контента */
+.content{
+    flex-grow: 1;
+    border: 2px solid black;
+}

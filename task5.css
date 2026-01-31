@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: repeat(5, 1fr);
+    height: 50vh;
+    width: 100%;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "content content aside"
+    "content content aside"
+    "footer footer footer"
+    "footer footer footer";
+}
+
+header {
+  grid-area: header;
+  background-color: red;
+}
+nav{
+    grid-area: nav;
+    background-color: red;
+}
+
+.content {
+  grid-area: content;
+  background-color: yellow;
+}
+
+aside {
+  grid-area: aside;
+  background-color: blue;
+}
+
+footer {
+  grid-area: footer;
+  background-color: aquamarine;
+}

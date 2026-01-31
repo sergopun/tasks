@@ -1,0 +1,37 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile{
+  background-color: burlywood;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  flex-direction: column;
+  width: 300px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar{
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.projects{
+  flex-direction: row;
+  width: 50%;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.rating{
+  flex-direction: row;
+  width: 50%;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
